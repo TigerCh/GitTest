@@ -33,7 +33,7 @@ class ArticleController extends Controller {
             $this->assign('arr', $arr)->display();
         } else {
             //没有登陆就进行操作则无法运行
-            echo '需登陆后进行次操作，如果您已登陆那么说明你没有进行文章添加的权限';
+            echo '需登陆后进行次操作，如果您已登陆那么说明你没有进行文章添加的权限哈哈哈';
             exit();
         }
     }
